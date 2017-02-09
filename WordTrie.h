@@ -7,8 +7,7 @@
 /*
 	CreateNode(message, index, reply):
 		check if any of childrens has got next character in message
-			if yes, go to line 8 for this child node with index = index+1
-			return pointer to this child node
+			if yes, go to line 8 for this child node with index = index+1. Do for next child while true
 		if new node will be last (index = message length-1), AddNode here
 		else, there are more chars left, we need to create more nodes, CreateSubtrie here and return pointer (line 18)
 
